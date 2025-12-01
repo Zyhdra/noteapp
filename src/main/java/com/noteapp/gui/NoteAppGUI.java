@@ -9,9 +9,9 @@ import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 
-/**
- * Main GUI window for the Note App.
- */
+
+ // The Main GUI window for the Note App.
+ 
 public class NoteAppGUI extends JFrame {
     
     private JTextArea textArea;
