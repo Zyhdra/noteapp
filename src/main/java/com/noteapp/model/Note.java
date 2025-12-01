@@ -4,22 +4,20 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-/**
- * Represents a text note with content, file path, and modification tracking.
- */
+
 public class Note implements Serializable {
     
     private static final long serialVersionUID = 1L;
     
-    // Required attributes (at least 2)
+    
     private String content;
     private String filePath;
     private LocalDateTime lastModified;
     private boolean isModified;
     
-    /**
-     * Creates a new empty note.
-     */
+    
+     // Creates a new empty note.
+     
     public Note() {
         this.content = "";
         this.filePath = null;
@@ -27,9 +25,9 @@ public class Note implements Serializable {
         this.isModified = false;
     }
     
-    /**
-     * Creates a note with content.
-     */
+    
+     // Creates a note with content.
+     
     public Note(String content) {
         this.content = content != null ? content : "";
         this.filePath = null;
