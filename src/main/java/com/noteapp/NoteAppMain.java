@@ -3,9 +3,7 @@ package com.noteapp;
 import com.noteapp.gui.NoteAppGUI;
 import javax.swing.SwingUtilities;
 
-/**
- * Main entry point for the Note App application.
- */
+
 public class NoteAppMain {
     
     public static void main(String[] args) {
